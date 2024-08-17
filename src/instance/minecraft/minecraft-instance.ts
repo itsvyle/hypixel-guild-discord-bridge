@@ -171,7 +171,7 @@ export default class MinecraftInstance extends ClientInstance<MinecraftInstanceC
 
   uuid(): string | undefined {
     const uuid = this.client?.uuid
-    return uuid == undefined ? undefined : uuid.split('-').join('')
+    return uuid == undefined ? undefined : uuid.replaceAll('-', '')
   }
 
   async send(message: string): Promise<void> {

@@ -1,3 +1,5 @@
+// file: discord-pager.ts
+// Handles the embeds' "paging" feature, used for example for logs
 import type {
   APIEmbed,
   ButtonInteraction,

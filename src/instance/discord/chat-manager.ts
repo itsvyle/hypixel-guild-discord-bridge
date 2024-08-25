@@ -1,3 +1,5 @@
+// file: chat-manager.ts
+// Handles messages sent on the discord side, handling truncation and filtering on messages
 import axios, { type AxiosResponse } from 'axios'
 import type { Message, TextChannel } from 'discord.js'
 import emojisMap from 'emoji-name-map'

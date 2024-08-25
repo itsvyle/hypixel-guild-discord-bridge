@@ -1,3 +1,5 @@
+// file: cpommand-interface.ts
+// @aidn3 will have to help me on this one
 import type { ChatInputCommandInteraction, SlashCommandBuilder } from 'discord.js'
 import type { Logger } from 'log4js'
 

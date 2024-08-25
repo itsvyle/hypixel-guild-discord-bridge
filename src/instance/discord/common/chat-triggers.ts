@@ -1,3 +1,5 @@
+// file: chat-triggers.ts
+// Defines centrally all the regex patterns to match in-game guild event messages, and the functions to handle message formatting
 import type { APIEmbed } from 'discord.js'
 
 import type Application from '../../../application.js'

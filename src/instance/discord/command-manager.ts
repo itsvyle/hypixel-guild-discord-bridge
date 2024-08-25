@@ -1,3 +1,5 @@
+// file: command-namanger.ts
+// Resgisters discord-side command handlers
 import assert from 'node:assert'
 
 import type {

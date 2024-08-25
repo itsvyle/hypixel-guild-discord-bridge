@@ -1,3 +1,5 @@
+// file: status-handler.ts
+// Handles settings the bot's status on discord
 import assert from 'node:assert'
 
 import { ActivityType } from 'discord.js'

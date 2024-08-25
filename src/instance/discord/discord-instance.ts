@@ -1,3 +1,5 @@
+// file: discord-instance.ts
+// Handles all events on the discord side of things, including actually sending the messages from minecraft to the bridge channel; also handles the discord clien itself for the the bot
 import assert from 'node:assert'
 
 import type { APIEmbed, TextBasedChannelFields, Webhook } from 'discord.js'

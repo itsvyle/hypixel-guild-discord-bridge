@@ -1,3 +1,5 @@
+// file: chat-manager.ts
+// Handles minecraft chat operations: registering modules, and catching messages sent by players
 import assert from 'node:assert'
 
 import getMinecraftData from 'minecraft-data'

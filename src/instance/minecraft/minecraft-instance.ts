@@ -1,3 +1,5 @@
+// file: minecraft-instance.ts
+// The minecraft instance client clalss, which coordinates all the components of the minecraft side
 import type { Client } from 'minecraft-protocol'
 import { createClient, states } from 'minecraft-protocol'
 import PrismarineChat from 'prismarine-chat'

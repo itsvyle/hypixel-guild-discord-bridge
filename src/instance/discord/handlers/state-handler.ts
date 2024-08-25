@@ -1,3 +1,5 @@
+// file: state-handler
+// Defines the handler for handling events of the discord bot client or other related events
 import assert from 'node:assert'
 
 import EventHandler from '../../../common/event-handler.js'
